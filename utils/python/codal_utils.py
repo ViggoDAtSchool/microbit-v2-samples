@@ -18,7 +18,7 @@ def system(cmd):
 def build(clean, verbose = False, parallelism = 10):
     if platform.system() == "Windows":
         # configure
-        system("cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo -G \"Ninja\"")
+        system("cmake .. -DCMAKE_BUILD_TYPE=Debug -G \"Ninja\"")
 
         if clean:
             system("ninja clean")
@@ -30,7 +30,7 @@ def build(clean, verbose = False, parallelism = 10):
             system("ninja -j {}".format(parallelism))
     else:
         # configure
-        system("cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo -G \"Unix Makefiles\"")
+        system("cmake .. -DCMAKE_BUILD_TYPE=Debug -G \"Unix Makefiles\"")
 
         if clean:
             system("make clean")
