@@ -38,17 +38,17 @@ int main() {
     while (true) {
         Adafruit_NeoPixel strip = Adafruit_NeoPixel(12, 0, NEO_GRB + NEO_KHZ800);
 int x = 0;
-void setup() {
+void setup(); {
     strip.begin();
     strip.show();
 }
-void loop() {
+void loop(); {
     x = 1;
     for (int index = 0; index < 12; index++) {
         strip.setPixelColor(0, strip.Color(255, 125, 0));
         strip.show();
         x += 1;
-        delay(100);
+        _sleep(100);
     }
     strip.clear();
     strip.show();
