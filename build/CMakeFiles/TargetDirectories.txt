@@ -1,0 +1,17 @@
+C:/Users/drvig/OneDrive/Desktop/microbit-v2-samples/build/CMakeFiles/MICROBIT.dir
+C:/Users/drvig/OneDrive/Desktop/microbit-v2-samples/build/CMakeFiles/MICROBIT_bin.dir
+C:/Users/drvig/OneDrive/Desktop/microbit-v2-samples/build/CMakeFiles/MICROBIT_hex.dir
+C:/Users/drvig/OneDrive/Desktop/microbit-v2-samples/build/CMakeFiles/edit_cache.dir
+C:/Users/drvig/OneDrive/Desktop/microbit-v2-samples/build/CMakeFiles/rebuild_cache.dir
+C:/Users/drvig/OneDrive/Desktop/microbit-v2-samples/build/libraries/codal-microbit-v2/CMakeFiles/codal-microbit-v2.dir
+C:/Users/drvig/OneDrive/Desktop/microbit-v2-samples/build/libraries/codal-microbit-v2/CMakeFiles/edit_cache.dir
+C:/Users/drvig/OneDrive/Desktop/microbit-v2-samples/build/libraries/codal-microbit-v2/CMakeFiles/rebuild_cache.dir
+C:/Users/drvig/OneDrive/Desktop/microbit-v2-samples/build/libraries/codal-core/CMakeFiles/codal-core.dir
+C:/Users/drvig/OneDrive/Desktop/microbit-v2-samples/build/libraries/codal-core/CMakeFiles/edit_cache.dir
+C:/Users/drvig/OneDrive/Desktop/microbit-v2-samples/build/libraries/codal-core/CMakeFiles/rebuild_cache.dir
+C:/Users/drvig/OneDrive/Desktop/microbit-v2-samples/build/libraries/codal-nrf52/CMakeFiles/codal-nrf52.dir
+C:/Users/drvig/OneDrive/Desktop/microbit-v2-samples/build/libraries/codal-nrf52/CMakeFiles/edit_cache.dir
+C:/Users/drvig/OneDrive/Desktop/microbit-v2-samples/build/libraries/codal-nrf52/CMakeFiles/rebuild_cache.dir
+C:/Users/drvig/OneDrive/Desktop/microbit-v2-samples/build/libraries/codal-microbit-nrf5sdk/CMakeFiles/codal-microbit-nrf5sdk.dir
+C:/Users/drvig/OneDrive/Desktop/microbit-v2-samples/build/libraries/codal-microbit-nrf5sdk/CMakeFiles/edit_cache.dir
+C:/Users/drvig/OneDrive/Desktop/microbit-v2-samples/build/libraries/codal-microbit-nrf5sdk/CMakeFiles/rebuild_cache.dir

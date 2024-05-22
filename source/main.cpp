@@ -1,4 +1,5 @@
 #include "MicroBit.h"
+#include "Adafruit_NeoPixel.h"
 #include "samples/Tests.h"
 
 MicroBit uBit;

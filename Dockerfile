@@ -13,13 +13,13 @@ RUN apt-get update -qq && \
     rm -rf /var/lib/apt/lists/*
 
 # Project sources volume should be mounted at /app
-COPY . /opt/microbit-samples
-WORKDIR /opt/microbit-samples
+COPY . C:/Users/drvig/OneDrive/Desktop/microbit-v2-samples
+WORKDIR C:/Users/drvig/OneDrive/Desktop/microbit-v2-samples
 
 RUN python3 build.py
 
 FROM scratch AS export-stage
-COPY --from=builder /opt/microbit-samples/MICROBIT.bin .
-COPY --from=builder /opt/microbit-samples/MICROBIT.hex .
+COPY --from=builder C:/Users/drvig/OneDrive/Desktop/microbit-v2-samples/MICROBIT.bin .
+COPY --from=builder c:/Users/drvig/OneDrive/Desktop/microbit-v2-samples/MICROBIT.hex .
 
-ENTRYPOINT ["/bin/bash"]
+ENTRYPOINT ["bin/bash"]
